@@ -3,28 +3,27 @@
 set +x
 
 
-export BTCPAY_HOST="86-fugoku-btcpayserverdock-rtazyp0vokm.ws-eu100.gitpod.io"
-export NBITCOIN_NETWORK="testnet"
+export BTCPAY_HOST="btcpay.fugoku.com"
+export NBITCOIN_NETWORK="mainnet"
 export BTCPAYGEN_CRYPTO1="btc"
 export BTCPAYGEN_CRYPTO2="ltc"
 export BTCPAYGEN_REVERSEPROXY="nginx"
+export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage-xs"
 export BTCPAY_ENABLE_SSH=true
-export REVERSEPROXY_HTTP_PORT=86
-export REVERSEPROXY_HTTPS_PORT=4436
 export LETSENCRYPT_EMAIL="richardokonicha@gmail.com"
+export BTCPAYGEN_LIGHTNING="clightning"
+export BTCPAY_ADDITIONAL_HOSTS="btcpayserver.fugoku.com"
+export REVERSEPROXY_HTTP_PORT=82
+export REVERSEPROXY_HTTPS_PORT=4432
 
-# export BTCPAY_HOST="btcpay.80-btcpayserve-btcpayserve-ybkrcupixw0.ws-eu100.gitpod.io"
-# export BTCPAYGEN_LIGHTNING="clightning"
+# export NBITCOIN_NETWORK="mainnet"
+# export NBITCOIN_NETWORK="testnet"
+# export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage-xxs"
 # export NOREVERSEPROXY_HTTP_PORT=82
-# export BTCPAYGEN_REVERSEPROXY=none
-# export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage-s"docker ps
 # ACME_CA_URI
 # export BTCPAY_PROTOCOL="http"
 # export BTCPAY_ENABLE_SSH=true
 # export BTCPAYGEN_REVERSEPROXY=(empty)
-
-export BTCPAYGEN_ADDITIONAL_FRAGMENTS="opt-save-storage-xxs"
-export BTCPAY_ADDITIONAL_HOSTS="80-fugoku-btcpayserverdock-rtazyp0vokm.ws-eu100.gitpod.io"
 
 
 
